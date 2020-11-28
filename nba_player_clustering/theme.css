@@ -1,0 +1,100 @@
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.irs-max, .irs-min {
+    color: #000000;
+    font-size: 13px;
+    line-height: 1.333;
+    text-shadow: none;
+    top: 0;
+    padding: 1px 3px;
+    background: #ffffff;
+    border-radius: 3px;
+}
+
+.irs-from, .irs-to, .irs-single {
+    color: #000000;
+    font-size: 13px;
+    line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 3px;
+    background: #ffffff;
+    border-radius: 3px;
+}
+
+.irs-grid-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0 3px;
+    color: #000000;
+}
+
+.irs-line {
+    height: 8px;
+    top: 25px;
+    background: #EEE;
+    background: linear-gradient(to bottom, #C9082A -50%, #C9082A 150%);
+    border-radius: 16px;
+
+}
+
+.irs-slider {
+    top: 17px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #000000;
+    background: #ffffff;
+    border-radius: 27px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.irs-bar-edge, .irs-bar {
+    height: 8px;
+    top: 25px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    background: #17408B;
+}
+
+/* CSS for the labels */
+.pretty input[value=One]~.state span {
+  color: #17408B;
+  font-weight: bold;
+}
+/* CSS for the checkboxes */
+.pretty input[value=One]~.state label:after, 
+.pretty input[value=One]~.state label:before {
+  background-color: #17408B;
+}
+.pretty input[value=Two]~.state label:after, 
+.pretty input[value=Two]~.state label:before {
+  background-color: #17408B;
+}
+.pretty input[value=Three]~.state label:after, 
+.pretty input[value=Three]~.state label:before {
+  background-color: #17408B;
+}
+/* CSS for the checked checkboxes */
+.pretty.p-default input:checked~.state label:after {
+  background-color: #17408B !important;
+}
+
+iframe {
+    border-width: 1px;
+    border-style: inset;
+    border-color: #000000;
+    border-image: initial;
+}

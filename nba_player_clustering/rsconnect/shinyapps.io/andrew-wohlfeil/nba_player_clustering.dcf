@@ -1,0 +1,13 @@
+name: nba_player_clustering
+title: nba_player_clustering
+username:
+account: andrew-wohlfeil
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3313320
+bundleId: 3914259
+url: https://andrew-wohlfeil.shinyapps.io/nba_player_clustering/
+when: 1606518296.92456
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: player_table.js
